@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="eng">
    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Managed Services</title>
+      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" /> 
-      <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <style>
     ssb-btn-0{background: #3597db;}
@@ -23,28 +22,32 @@
 
    </head>
    <body>
-    <div class="page-wrapper">
+    <header class="page-wrapper">
         <div class="nav-wrapper">
         <div class="container">
-         <nav class="navbar">
-           <img src="images/USvCloudLogo1.png" alt="Company Logo">
-           <div class="menu-toggle" id="mobile-menu">
-             <span class="bar"></span>
-             <span class="bar"></span>
-             <span class="bar"></span>
-           </div>
-           <ul class="nav no-search">
-             <li class="nav-item"><a href="#">Home</a></li>
-             <li class="nav-item"><a href="#">store</a></li>
-             <li class="nav-item"><a href="#">desk blog</a></li>
-             <li class="nav-item"><a href="#">events</a></li>
-             <li class="nav-item"><a href="#">services</a></li>
-             <li class="nav-item"><a href="#">our company</a></li>
-             <li class="nav-item"><a href="#">contact us</a></li>
-           </ul>
-         </nav>
+               <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#"><img src="images/USvCloudLogo1.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">store</a></li>
+            <li class="nav-item"><a href="#">desk blog</a></li>
+            <li class="nav-item"><a href="#">events</a></li>
+            <li class="nav-item"><a href="#">services</a></li>
+            <li class="nav-item"><a href="#">our company</a></li>
+            <li class="nav-item"><a href="#">contact us</a></li>   
+          </ul>
+        </div>  
+      </nav>
+        
          </div>
          </div>
+         </header>
          <section class="headline">
            <h1>MANAGED SERVICES</h1>
            <div class="sticky-container">
@@ -61,7 +64,8 @@
           </div>
           </div>
          </section>
-       </div>
+ 
+ 
        <section class="manage-service">
          <div class="container">
            <div class="main-box">
@@ -209,7 +213,12 @@
   +61391324400<br>
   info@vcloudgroup.net</p>
   
-  <div class="social-icons my-show"><a href="https://www.facebook.com/vcloudgroupnet" target="_blank" class="facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a><a href="https://twitter.com/vcloudgroupnet" target="_blank" class="twitter" rel="noopener"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/company/vcloudgroup/" target="_blank" class="linkedin" rel="noopener"><i class="fa fa-linkedin"></i></a></div>
+  <div class="social-icons">
+    <ul>
+      <li><a href="#"><img src="images/call.png"></a></li>
+      <li><a href="#"><img src="images/mail.png"></a></li>
+    </ul>
+  </div>
   </div></div>								</div>
                                 <div class="widget-area footer-sidebar-5 footer-custom-col">
                     <div id="custom_html-5" class="widget_text widget widget_custom_html"><h4 class="widget-title">Social</h4><div class="textwidget custom-html-widget"><div class="social-icons"><a href="https://www.facebook.com/vcloudgroupnet" target="_blank" class="facebook" rel="noopener"><i class="fab fa-facebook-f"></i></a><a href="https://twitter.com/vcloudgroupnet" target="_blank" class="twitter" rel="noopener"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/company/vcloudgroup/" target="_blank" class="linkedin" rel="noopener"><i class="fa fa-linkedin"></i></a></div>
@@ -227,18 +236,8 @@
         </div>
       </div><!-- .site-info -->
     </footer>
-     <script>
-      $("#search-icon").click(function() {
-  $(".nav").toggleClass("search");
-  $(".nav").toggleClass("no-search");
-  $(".search-input").toggleClass("search-active");
-});
-
-$('.menu-toggle').click(function(){
-   $(".nav").toggleClass("mobile-nav");
-   $(this).toggleClass("is-active");
-});
-
-     </script>
+   <div class="chatbox">
+     <img src="images/clic.png">
+   </div>
    </body>
    </html>
